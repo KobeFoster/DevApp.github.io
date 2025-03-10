@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gotcha's Development Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            overflow-y: auto;
+            background: linear-gradient(-45deg, #000000, #440000, #220000, #660000);
+            background-size: 400% 400%;
+            animation: gradientBG 8s ease infinite;
+            color: white;
+            font-family: Tahoma, sans-serif;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,0,0,0.2) 10%, rgba(0,0,0,0.9) 90%);
+            mix-blend-mode: overlay;
+            pointer-events: none;
+        }
+
+        .collage-container {
+            width: 80vw;
+            max-width: 800px;
+            height: 70vh;
+            overflow-y: scroll;
+            border: 2px solid #880000;
+            padding: 10px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .collage-container:hover {
+            transform: scale(1.02);
+        }
+
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .collage img {
+            width: calc(33.333% - 10px);
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .collage img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Styling for text elements */
+        p, h1, h2, h3, label, .pageheader, .inlineDATE2, .robloxPro {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            line-height: 1.3;
+            margin-bottom: 6px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        label {
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .inlineDATE2 {
+            font-size: 1rem;
+            color: #888;
+            margin-bottom: 12px;
+        }
+
+        .robloxPro {
+            font-size: 1rem;
+            color: #00aaff;
+            text-decoration: none;
+        }
+
+        .robloxPro:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+<div class="headerimage"></div>
+<header></header>
+
+<div class="pagetitle"></div>
+<fieldset class="dabody">
+    <div class="pageheader">
+        <p class="inlineDATE2">Dr gotcha | Last updated March 10th 2025</p>
+    </div>
+    <h1> Paragon MaD application!</h1>
+    <h1>I'M WILLING TO WORK FOR FREE!</h1>
+    <a class="robloxPro" href="https://www.roblox.com/users/3143073045/profile">ROBLOX PROFILE ▽</a>
+
+    <label class="ContextPt1"> </label>
+</fieldset>
+<hr class="gap">
+
+<h2>Development Field</h2>
+<p>Hello! I'm Dr gotcha, a 3D Modeller, enviromental artist, web developer, builder + more. I'm wanting to get a position in paragon</p>
+<P>in regards to a modelling/building position. I'm wanting to work for completley free, as myself am aiming for community satisfaction, and experience instead of payment  </P>
+<P> I'm wanting to be able to push regular updates for the group when other devs are busy regarding the rework or large scale updates(Of course I'd still aid with other duties)</P>
+<p> It's something that paragon is really lacking, even if it's small additions like new rooms or a few new assets it helps improves the experience for the players</p>
+<hr>
+<h2>How I model:</h2>
+<p>I model using the open source modelling software, blender, I'm able to do organic and hard surface modelling.</p>
+<hr>
+<h2>What programs can I use?</h2>
+<p>1) Blender</p>
+<p>2) Photoshop</p>
+<p>3) Substance painter</p>
+<p>4) Premire pro</p>
+<p>5) Roblox studio</p>
+<p>6) Developing tools like Visual studio and webstorm (You probally won't need these skills, just letting you know)</p>
+
+<h3>HTML, CSS and JAVASCRIPT developer </h3><p>(Just an extra thing, may be unrelated in terms of roblox)</p>
+<div class="tech-images">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Made with HTML" width="150" height="150">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Made with CSS" width="150" height="150">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Made with JavaScript" width="150" height="150">
+</div>
+<hr>
+
+
+<div class="collage-container">
+    <div class="collage">
+        <img src="https://i.postimg.cc/hjJfRK54/smudge-tress.png" alt="Image 1">
+        <img src="https://i.postimg.cc/FsX1w5gm/Screenshot-2024-05-04-at-7-12-23-PM.png" alt="Image 2">
+        <img src="https://i.postimg.cc/3wNw2K7j/Screenshot-2024-05-04-at-7-12-59-PM.png" alt="Image 3">
+        <img src="https://i.postimg.cc/rFqMS8Nd/Untitled-1.png" alt="Image 4">
+        <img src="https://i.postimg.cc/mDF268Pt/Screenshot-2024-05-10-at-6-43-19-PM.png" alt="Image 5">
+        <img src="https://i.postimg.cc/prbXNzjk/Screenshot-2024-05-10-at-6-43-09-PM.png" alt="Image 6">
+        <img src="https://i.postimg.cc/W37fjPFK/Screenshot-2025-03-10-at-3-36-58-pm.png" alt="Image 7">
+        <img src="https://i.postimg.cc/fWBgrDhS/Screenshot-2025-03-10-at-3-36-32-pm.png" alt="Image 8">
+        <img src="https://i.postimg.cc/bN5Vqgrz/Screenshot-2025-03-10-at-3-36-42-pm.png" alt="Image 9">
+        <img src="https://i.postimg.cc/cHdXF59c/Screenshot-2025-03-04-at-9-16-13-pm.png" alt="Image 10">
+        <img src="https://i.postimg.cc/KcwtzHPs/Screenshot-2025-03-04-at-8-35-23-pm.png" alt="Image 11">
+        <img src="https://i.postimg.cc/yN1Zt4KW/Screenshot-2025-03-04-at-8-24-56-pm.png" alt="Image 12">
+        <img src="https://i.postimg.cc/XJyDPD9G/Untitled-2-2.png" alt="Image 13">
+        <img src="https://i.postimg.cc/Kz4gcPR2/roman3.png" alt="Image 14">
+        <img src="https://i.postimg.cc/WtcD7xSN/r4.png" alt="Image 15">
+        <img src="https://i.postimg.cc/Pf9RmhsW/Screenshot-2024-05-19-at-10-32-15-PM.png" alt="Image 16">
+        <img src="https://i.postimg.cc/GmJgwyBK/Screenshot-2024-05-19-at-8-34-18-PM.png" alt="Image 17">
+        <img src="https://i.postimg.cc/3w28H9X6/PanVSSd.png" alt="Image 18">
+        <img src="https://i.postimg.cc/0Nvg7vSW/16beach.png" alt="Image 19">
+        <img src="https://i.postimg.cc/qv4V30ym/my-work.png" alt="Image 20">
+        <img src="https://i.postimg.cc/SKxBgrZC/EMS-THING.png" alt="Image 21">
+        <img src="https://i.postimg.cc/W3DQv4c4/Screenshot-2025-03-08-at-1-25-17-pm.png" alt="Image 22">
+        <img src="https://i.postimg.cc/mkCJP6Df/Screenshot-2025-03-10-at-4-20-46-pm.png" alt="Image 23">
+        <img src="https://i.postimg.cc/fT71ZFpY/Screenshot-2025-03-10-at-4-21-55-pm.png" alt="Image 24">
+        <img src="https://i.postimg.cc/fRwpbCQp/Screenshot-2025-03-10-at-4-22-07-pm.png" alt="Image 25">
+        <img src="https://i.postimg.cc/DZKq2Ctb/Screenshot-2025-03-10-at-4-54-33-pm.png" alt="Image 26">
+        <img src="https://i.postimg.cc/V6s3HFDX/mdrender-1.png" alt="Image 27">
+        <img src="https://i.postimg.cc/jdRZ6j3J/sm.png" alt="Image 28">
+        <img src="https://i.postimg.cc/gjz8hxcz/the-end-2-copy-2.png" alt="Image 29">
+        <img src="https://i.postimg.cc/vHSf18Jy/Screenshot-2025-03-10-at-4-59-27-pm.png" alt="Image 30">
+        <img src="https://i.postimg.cc/zfTgPCVD/Screenshot-2025-03-10-at-4-59-39-pm.png" alt="Image 31">
+        <img src="https://i.postimg.cc/yxD62Kvh/Screenshot-2025-03-10-at-5-05-00-pm.png" alt="Image 32">
+        <img src="https://i.postimg.cc/hvN4BY5k/Screenshot-2025-03-10-at-5-04-54-pm.png" alt="Image 33">
+        <img src="https://i.postimg.cc/dQfVr7V5/Screenshot-2025-03-10-at-5-04-47-pm.png" alt="Image 34">
+        <img src="https://i.postimg.cc/tgDXTJct/Screenshot-2025-03-10-at-5-07-53-pm.png" alt="Image 35">
+        <img src="https://i.postimg.cc/Wz0ps8ct/Screenshot-2025-03-10-at-5-10-27-pm.png" alt="Image 35">
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+<footer>
+    <p> Dr gotcha © 2025. All times AEST (GMT +11). Powered by Github</p>
+    <p>CONTACT DETAILS: Email: kobegotcha280@gmail.com | Discord: drgotcha750 </p>
+    <a class="robloxPro" href="https://www.roblox.com/users/3143073045/profile">ROBLOX PROFILE ▽</a>
+
+</footer>
+</body>
+</html>
+
+
+
+
